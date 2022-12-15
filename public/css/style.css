@@ -1,0 +1,163 @@
+/*
+Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+}
+
+.w-100{
+    width: 100%;
+}
+
+/*-----------------------header-----------------*/
+
+.imagen-inicio{
+    width: 40%;
+    margin: 30px 25px 12px 30px;
+}
+
+.busqueda{
+    margin-left: 10px;
+}
+
+.header-inicio{
+    background-color:  #EAC926;
+}
+.div-inicio{
+    text-align: center;
+    margin: 15px;
+}
+.decoradoNo{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.burger-menu{
+    color: white;
+    text-align: center;
+}
+.detalles{
+    background-color: #1259c3;
+    font-size: 18px;
+    margin: 10px; 
+    padding: 8px 10px 8px 10px;
+    border-radius: 4px;
+}
+
+/*--------------------------- main-----------------------*/
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.w-100-article{
+    width: 100%;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+
+main article{
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.articulo-bloque{
+    border-top: solid #ebebeb 1px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.posicionamiento{
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.titulares{
+    font-size: 24px;
+    color: #666;
+    margin: 20px 20px 20px 0px;
+}
+.precios{
+    font-size: 18px;
+    padding-right: 10px;
+}
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    align-self: center;
+}
+.descripciones{
+    font-size: 16px;
+    color: #666;
+    margin-top: 15px;
+    width: 100%
+} 
+/*--------------------------- footer-----------------------*/
+
+footer ul{
+    list-style: none;
+    
+}
+.articulos-footer{
+    text-align: center;
+    margin: 40px
+}
+.articuloEspecial{
+    color: #666;
+    margin: 20px
+}
+.arreglosiconos{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+@media (min-width:480px){
+    /*tablests*/
+    .w-100-article{
+        width: 45%;
+    }
+}
+    
+@media (min-width:769px){
+    /*laptop*/
+    main article{
+        box-shadow: none;
+    }
+    .description{
+        display: none;
+    }
+}
+    
+@media (min-width:1281px){
+    /*desktop*/
+    .w-100-article{
+        width: 22%;
+    }
+}
