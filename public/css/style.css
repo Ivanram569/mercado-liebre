@@ -25,6 +25,7 @@ body{
 .imagen-inicio{
     width: 40%;
     margin: 30px 25px 12px 30px;
+    background-color: #EAC926;
 }
 
 .busqueda{
@@ -42,6 +43,10 @@ body{
     text-decoration: none;
     list-style: none;
     color: black;
+}
+
+.nav-header{
+    display: none;
 }
 
 .burger-menu{
@@ -116,7 +121,8 @@ main article{
     font-size: 16px;
     color: #666;
     margin-top: 15px;
-    width: 100%
+    width: 100%;
+    display: none;
 } 
 /*--------------------------- footer-----------------------*/
 
@@ -139,30 +145,6 @@ footer ul{
     font-size: 2em;
     margin-bottom: 10px;
     color: #1259c3;
-}
-
-@media (min-width:480px){
-    /*tablests*/
-    .w-100-article{
-        width: 45%;
-    }
-}
-    
-@media (min-width:769px){
-    /*laptop*/
-    main article{
-        box-shadow: none;
-    }
-    .description{
-        display: none;
-    }
-}
-    
-@media (min-width:1281px){
-    /*desktop*/
-    .w-100-article{
-        width: 22%;
-    }
 }
 
 /*------------------------main register-------------------*/
@@ -203,4 +185,57 @@ footer ul{
 
 .titulos-form{
     font-weight: 600;
+}
+
+@media (min-width:480px){
+    /*tablests*/
+    .w-100-article{
+        width: 45%;
+    }
+    .nav-header{
+        display: inline-block;
+        margin: 15px;
+        
+    }
+    .burger-menu{
+        display: none;
+    }
+    .descripciones{
+        display: block;
+    }
+}
+    
+@media (min-width:769px){
+    /*laptop*/
+    main article{
+        box-shadow: none;
+    }
+    .description{
+        display: none;
+    }
+    .nav-header{
+        display: inline-block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .descripciones{
+        display: block;
+    }
+}
+    
+@media (min-width:1281px){
+    /*desktop*/
+    .w-100-article{
+        width: 22%;
+    }
+    .nav-header{
+        display: inline-block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .descripciones{
+        display: block;
+    }
 }
