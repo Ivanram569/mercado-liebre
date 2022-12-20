@@ -128,6 +128,9 @@ footer ul{
     text-align: center;
     margin: 40px
 }
+.m-t{
+    margin-top: 25px;
+}
 .articuloEspecial{
     color: #666;
     margin: 20px
@@ -160,4 +163,44 @@ footer ul{
     .w-100-article{
         width: 22%;
     }
+}
+
+/*------------------------main register-------------------*/
+
+.formularioRegistro{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main-registro{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+.ubi-input-form{
+    margin: 10px;
+}
+
+.contenerdo-botones{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contenerdo-botones input{
+    width: 30%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bordes-inputs{
+    border: 0;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.titulos-form{
+    font-weight: 600;
 }
