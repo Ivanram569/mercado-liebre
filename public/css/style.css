@@ -23,21 +23,47 @@ body{
 /*-----------------------header-----------------*/
 
 .imagen-inicio{
-    width: 40%;
-    margin: 30px 25px 12px 30px;
+    width: 42%;
+    margin: 30px 10px 20px 15px;
     background-color: #EAC926;
 }
 
 .busqueda{
-    margin-left: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 30px;
+    width: 42%;
+    margin: 10px 10px 10px 5px;
+    
+}
+.input-search{
+    width: 85%;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    flex-grow: 1;
+}
+.button-search{
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #ffffff;
+    padding: 5px;
+    
+    
 }
 
+
 .header-inicio{
-    background-color:  #EAC926;
+    background-color: #EAC926;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .div-inicio{
     text-align: center;
     margin: 15px;
+    width: 100%;
 }
 .decoradoNo{
     text-decoration: none;
@@ -50,6 +76,7 @@ body{
 }
 
 .burger-menu{
+    width: 100%;
     color: white;
     text-align: center;
 }
