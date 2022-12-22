@@ -22,9 +22,6 @@ body{
 .flex{
     display: flex;
 }
-.graw{
-    flex-wrap: wrap;
-}
 .w-50{
     width: 50%;
 }
