@@ -90,6 +90,10 @@ body{
 }
 
 /*--------------------------- main-----------------------*/
+.h1-especiales{
+    text-align: center;
+}
+
 section{
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +110,10 @@ main{
 main article{
     margin-bottom: 20px;
     background-color: white;
+}
+
+.border-articulo{
+    border-radius: 5px;
 }
 
 .articulo-bloque{
@@ -150,7 +158,8 @@ main article{
     color: #666;
     margin-top: 15px;
     width: 100%;
-    display: none;
+    opacity: 0;
+    transition: 0.5s;
 } 
 /*--------------------------- footer-----------------------*/
 footer{
@@ -181,6 +190,11 @@ footer ul{
 }
 .arreglosIconos:hover{
     color: #03264C;
+}
+
+.footer-login{
+    position: absolute;
+    bottom: 0;
 }
 
 /*------------------------main register - login-------------------*/
@@ -269,7 +283,7 @@ footer ul{
         display: none;
     }
     .movimiento:hover .descripciones{
-        display: block;
+        opacity: 1;
     }
     main article{
         box-shadow: none;
@@ -279,6 +293,7 @@ footer ul{
     }
     .movimiento:hover .posicionamiento{
         transform: rotateZ(360deg);
+        
     }
     .bt-form:hover{
         background-color: #0022AA;

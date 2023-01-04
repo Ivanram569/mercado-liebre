@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Liebre - Regístrate</title>
+    <title>Mercado Liebre - Ingresá</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header class="header-inicio">
-        <img class="imagen-inicio" class="w-100" src="/img/logo-mercado-liebre.svg" alt="logo de la empresa">
+        <a href="/" class="imagen-inicio w-100"><img src="/img/logo-mercado-liebre.svg" alt="logo de la empresa"></a>
         <div class="busqueda">
             <input class="input-search" type="search" id="site-search" name="q" placeholder="Buscar productos, marcas">
             <button class="button-search"><i class="fa-solid fa-magnifying-glass w-100"></i></button>
@@ -35,7 +35,8 @@
             </div>
     </header>
 
-    <main>
+    <main class="main-registro">
+        <h1 class="h1-especiales">Inicia sesión</h1>
         <form class="formularioRegistro" action="#" method="post">
             <label for="nombreDeUsuario"></label>
             <input class="w-100 ubi-input-form bordes-inputs" type="text" id="nombreDeUsuario" name="nombreDeUsuario" placeholder="Nombre de usuario">
@@ -48,7 +49,7 @@
         </form>
     </main>
 
-    <footer>
+    <footer class="footer-login">
         <ul>
             <li>
                 <article class="articulos-footer">
